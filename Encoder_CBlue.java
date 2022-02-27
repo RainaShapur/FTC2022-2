@@ -75,7 +75,7 @@ public class Encoder_CBlue extends LinearOpMode{
 
 
         //dropper starts and ends
-        extender.setPower(1);
+        extender.setPower(-1);
         sleep(1500);
         flipperLeft.setPosition(0);
         sleep(1500);

@@ -69,7 +69,7 @@ public class Encoder_CRed extends LinearOpMode {
         encoderMoveINCH(-24, -24, 0.5);
 
         //dropper starts and ends
-        extender.setPower(0.6);
+        extender.setPower(-0.6);
         sleep(1500);
         flipperLeft.setPosition(0);
         sleep(1500);

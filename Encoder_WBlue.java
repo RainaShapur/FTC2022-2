@@ -75,7 +75,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 
 
             //dropper starts and ends
-            extender.setPower(1);
+            extender.setPower(-1);
             sleep(1500);
             flipperLeft.setPosition(0);
             sleep(1500);
